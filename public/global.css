@@ -1,0 +1,138 @@
+body {
+  background-color: #181c2f;
+  overflow-x: hidden;
+  font-family: 'Inconsolata', monospace;
+  font-size: 1.3em;
+}
+@keyframes circle-22 {
+  0% {
+    cx: 1515;
+    cy: 175;
+  }
+  100% {
+    cx: 1661;
+    cy: 322;
+  }
+}
+
+@keyframes circle-10 {
+  0% {
+    cy: 100;
+    cx: 735;
+  }
+  100% {
+    cy: 52;
+    cx: 782;
+  }
+}
+
+@keyframes square-20 {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.2);
+  }
+}
+
+@keyframes circle-37 {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(3);
+  }
+}
+
+@keyframes line-15 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes plus-25 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes square-18 {
+  0% {
+    x: 1633.61;
+    y: 168.65;
+  }
+  40% {
+    x: 1806.61;
+    y: 168.65;
+  }
+  50% {
+    x: 1806.61;
+    y: 116.65;
+  }
+  90% {
+    x: 1633.61;
+    y: 116.65;
+  }
+  100% {
+    x: 1633.61;
+    y: 168.65;
+  }
+}
+
+[class^="cls-"] {
+  transform-box: fill-box;
+  transform-origin: center;
+}
+
+circle.cls-22 {
+  animation: 4s circle-22 infinite alternate linear;
+}
+
+circle.cls-10 {
+  z-index: 11;
+  animation: 3s circle-10 infinite alternate linear;
+}
+
+.cls-25 {
+  animation: 4s plus-25 infinite linear;
+}
+.cls-11 {
+  animation: 5s plus-25 infinite alternate linear;
+}
+
+.cls-20 {
+  animation: 4s square-20 infinite alternate linear;
+}
+
+.cls-18 {
+  animation: 5s square-18 infinite linear;
+}
+
+.cls-19 {
+  animation: 5s plus-25 infinite linear;
+}
+
+.cls-37 {
+  animation: 5s circle-37 infinite alternate-reverse ease-out;
+}
+
+.cls-13 {
+  transform: translateY(-250px);
+}
+
+.background {
+  position: fixed;
+  min-width: 1950px;
+  z-index: -1;
+  top: 0;
+  left: 0;
+}
+#New_Gradient_Swatch_7-2 {
+  transform: translateY(30px, 50%);
+}
